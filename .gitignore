@@ -1,0 +1,21 @@
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# Local bot storage
+seen_jobs.json
+users.json
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db

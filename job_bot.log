@@ -1,0 +1,33 @@
+2026-05-07 21:42:29,204 [INFO] Job Bot starting. Press Ctrl+C to stop.
+2026-05-07 21:42:39,506 [INFO] Fetched 0 raw jobs from JSearch
+2026-05-07 21:42:39,507 [WARNING] No jobs fetched or an error occurred.
+2026-05-07 21:42:39,508 [INFO] Sleeping 30 minutes…
+2026-05-07 21:44:22,312 [INFO] Job Bot starting. Press Ctrl+C to stop.
+2026-05-07 21:44:33,641 [ERROR] Unexpected error: 'NoneType' object has no attribute 'split'
+Traceback (most recent call last):
+  File "C:\Users\shaik\OneDrive\Desktop\Job Search automation\job_alert_bot.py", line 349, in <module>
+    check_and_notify()
+    ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\shaik\OneDrive\Desktop\Job Search automation\job_alert_bot.py", line 304, in check_and_notify
+    jobs = fetch_latest_jobs()
+  File "C:\Users\shaik\OneDrive\Desktop\Job Search automation\job_alert_bot.py", line 159, in fetch_latest_jobs
+    posted_at = posted_at.split("T")[0]
+                ^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'split'
+2026-05-07 21:44:35,610 [INFO] Sleeping 30 minutes…
+2026-05-07 21:46:15,003 [INFO] Job Bot starting. Press Ctrl+C to stop.
+2026-05-07 21:46:27,696 [INFO] Fetched 20 raw jobs from JSearch
+2026-05-07 21:46:27,739 [INFO] Sleeping 30 minutes…
+2026-05-07 21:51:54,025 [INFO] ============================================================
+2026-05-07 21:51:54,026 [INFO] Job Bot starting
+2026-05-07 21:51:54,026 [INFO]   Query:          Java developer fresher in Bengaluru
+2026-05-07 21:51:54,026 [INFO]   Check interval: every 30 min
+2026-05-07 21:51:54,026 [INFO]   Exclude:        ['senior', 'lead', 'manager', 'principal', 'staff', 'director', 'vp', 'head']
+2026-05-07 21:51:54,027 [INFO]   Skills:         ['java', 'spring boot', 'hibernate', 'sql', 'rest', 'api', 'maven', 'git', 'mysql', 'javascript', 'html', 'css', 'react.js', 'react']
+2026-05-07 21:51:54,027 [INFO]   Min score:      10%
+2026-05-07 21:51:54,027 [INFO]   Debug mode:     False
+2026-05-07 21:51:54,027 [INFO] ============================================================
+2026-05-07 21:51:55,315 [INFO] Fetching: 'Java developer fresher in Bengaluru'...
+2026-05-07 21:52:01,217 [INFO] Fetched 0 raw jobs from JSearch.
+2026-05-07 21:52:01,217 [WARNING] No jobs returned from API.
+2026-05-07 21:52:01,218 [INFO] Sleeping 30 minutes...
